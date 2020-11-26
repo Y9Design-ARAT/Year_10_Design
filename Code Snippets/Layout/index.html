@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-image:url("images/grass.jpg") ;
+        }
+        .title{
+          text-align: center;
+          font-size: 60px;
+          font-weight: bold;
+          color: white;
+          text-shadow: 3px 3px 5px black;
+          margin-top: 40px;
+
+        }
+        .buttonGrid{
+            display: grid;
+            grid-template-columns: repeat(4,max-content);
+            margin: 0 auto;
+            width: max-content;
+            column-gap: 50px;
+            margin-bottom: 100px;
+            margin-top: 100px;
+        }
+        .buttonGrid2{
+            display: grid;
+            grid-template-columns: repeat(3,max-content);
+            margin: 0 auto;
+            width: max-content;
+            column-gap: 50px;
+            
+        }
+        .buttonGrid a{
+            background-color: blue;
+            
+        }
+        .buttonGrid2 a{
+            background-color: turquoise;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="title">All About Soccer</div>
+    <div class="buttonGrid">
+        <a class="waves-effect waves-light btn-large">Button</a>
+        <a class="waves-effect waves-light btn-large">Button</a>
+        <a class="waves-effect waves-light btn-large">Button</a>
+        <a class="waves-effect waves-light btn-large">Button</a>
+    </div>
+
+    <div class="buttonGrid2">
+        <a class="waves-effect waves-light btn-large">Button</a>
+        <a class="waves-effect waves-light btn-large">Button</a>
+        <a class="waves-effect waves-light btn-large">Button</a>
+    </div>
+</body>
+</html>
