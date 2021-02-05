@@ -1,0 +1,39 @@
+body{
+    background-image: url("../Images/field.jpg");
+    /* max-width: 1000px; */
+    /* margin: 0px auto; */
+}
+.center_content{
+    width: 900px;
+    margin: 0 auto;
+
+}
+.instruction_grid{
+    display: grid;
+    grid-template-columns: auto 80%;
+}
+.site_logo{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+}
+.fill_page{
+    min-height: 100vh;
+}
+.frontpage_text{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    margin: center;
+    padding-top: 200px;
+
+}
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 100px;
+}
