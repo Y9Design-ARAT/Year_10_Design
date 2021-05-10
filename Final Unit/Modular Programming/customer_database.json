@@ -1,0 +1,14 @@
+{
+    "customers": [
+        {"name": "Alex", "purchases": 65, "days_since_last_payment": 12, "email_address": "alex@gmail.com"},
+        {"name": "Brain", "purchases": 40, "days_since_last_payment": 3, "email_address": "brain@gmail.com"},
+        {"name": "Sophie", "purchases": 0, "days_since_last_payment": 1, "email_address": "sophie@gmail.com"},
+        {"name": "John", "purchases": 101, "days_since_last_payment": 17, "email_address": null},
+        {"name": "Mateo", "purchases": 0, "days_since_last_payment": 10, "email_address": "mateo@gmail.com"},
+        {"name": "Alissa", "purchases": 18, "days_since_last_payment": 0, "email_address": "alissa@gmail.com"},
+        {"name": "Jessica", "purchases": 99, "days_since_last_payment": 0, "email_address": null},
+        {"name": "Liam", "purchases": 88, "days_since_last_payment": 9, "email_address": "liam@gmail.com"},
+        {"name": "Amy", "purchases": 0, "days_since_last_payment": 10, "email_address": null},
+        {"name": "Vanessa", "purchases": 77, "days_since_last_payment": 88, "email_address": "vanessa@gmail.com"}
+    ]
+}
