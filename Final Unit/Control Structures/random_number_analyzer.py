@@ -74,10 +74,3 @@ print('Program generated the following random numbers: ')
 for i in random_valuelist:
     print(i)
 
-#calculate the average of these generated numbers
-random_number_sum = 0 
-for i in random_valuelist:
-    random_number_sum += i
-
-random_number_average = random_number_sum / len(random_valuelist)
-print('The average of the generated numbers is: ', random_number_sum)
